@@ -7,7 +7,7 @@ const SignupAndToBePart = () => {
   return (
     <div className="h-screen px-20 md:flex justify-between items-center">
       <div className="">
-        <h2 className="text-[35px] font-semibold w-[400px]">
+        <h2 className="text-[35px] font-semibold ">
           <span className="text-parenttheme-secondary">Sign-up</span> and be
           part of a regular stream of Digital Real Estate Investment
           Opportunities

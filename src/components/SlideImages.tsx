@@ -41,7 +41,7 @@ const SlideImages = () => {
 
   return (
     <div className="relative">
-      <Carousel className="  w-[400px] md:w-[600px] lg:w-[900px] xl:w-[1140px] px-2 lg:mx-5 ">
+      <Carousel className="   px-2 lg:mx-5 ">
         <CarouselContent className="">
           {Slide.map((item) => (
             <CarouselItem className="flex flex-col w-full items-center gap-4">

@@ -19,7 +19,7 @@ const Hero = () => {
           {" "}
           starts with $10,000 onwards
         </h2>
-        <div className="lg:flex gap-x-2 font-light  text-[16px]">
+        <div className="lg:flex flex-col gap-2 gap-x-2 font-light  text-[16px]">
           <div className="flex items-center gap-x-12">
             <Image src={EarnPeriodic} alt="" />
             <h2 className="font-light text-[16px] w-[100px]">

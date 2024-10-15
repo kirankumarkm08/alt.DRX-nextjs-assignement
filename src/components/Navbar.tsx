@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import CustomBtn from "./CustomBtn";
 import { useState } from "react";
 import { Button } from "./ui/button";
 
@@ -66,7 +65,7 @@ const Navbar = () => {
           onClick={MobileMenu}
         />
         <div
-          className={`absolute left-0 flex flex-col justify-center w-full h-[700px] bg-white ${
+          className={`absolute left-0 flex flex-col justify-center w-full h-screen bg-white ${
             visible ? "-translate-y-0 " : "-translate-y-[140vh]"
           }`}
         >

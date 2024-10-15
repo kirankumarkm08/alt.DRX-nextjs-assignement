@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 const EmailCard = () => {
   return (
-    <div className="w-[350px] lg:w-[500px] h-[230px] bg-white rounded-lg">
+    <div className="w-[300px] lg:w-[500px] h-[230px] bg-white rounded-lg">
       <div className="bg-background-secondary flex justify-between px-5 py-3  rounded-t-lg">
         <h1 className="text-white text-[16px]">JOIN OUR MAILING LIST</h1>
         <Image src={RightArrow} alt="" className="w-[12px]" />
