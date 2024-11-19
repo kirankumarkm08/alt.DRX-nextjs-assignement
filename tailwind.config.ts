@@ -15,9 +15,13 @@ const config: Config = {
           secondary: "#F4772B",
           gray: "#77777",
         },
+        backgroundImage: {
+          "card-gradient": "linear-gradient(to right, #06b6d4, #3b82f6)", // from-cyan-500 to-blue-500
+        },
         background: {
           primary: "#312E7F",
           secondary: "#F4772B",
+          gray: "#F9F9F9",
         },
 
         foreground: "hsl(var(--foreground))",

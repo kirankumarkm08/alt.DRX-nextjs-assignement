@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Button } from "./ui/button";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const nav = [
@@ -24,6 +25,11 @@ const Navbar = () => {
       url: "/FAQs",
     },
   ];
+  const router = useRouter();
+
+  const HandleSignUp = () => {
+    router.push("/kycverification");
+  };
 
   const [visible, isVisible] = useState(false);
 
@@ -48,7 +54,10 @@ const Navbar = () => {
           {nav.map((navs) => (
             <Link href={navs.url}>{navs.name}</Link>
           ))}
-          <Button className="rounded-full uppercase font-bold">
+          <Button
+            className="rounded-full uppercase font-bold"
+            onClick={HandleSignUp}
+          >
             sign up | sign in
           </Button>
         </div>
@@ -79,7 +88,10 @@ const Navbar = () => {
                   {navs.name}
                 </Link>
               ))}
-              <Button className="rounded-full uppercase font-bold">
+              <Button
+                className="rounded-full uppercase font-bold"
+                onClick={HandleSignUp}
+              >
                 sign up | sign in
               </Button>
             </div>
